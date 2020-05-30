@@ -1,0 +1,25 @@
+{
+    "name": "test-image",
+    "version": "1.0.0",
+    "description": "This is a Mocha Test Server",
+	"Scripts": {
+		"mocha": "mocha --reporter spec test.js",
+		"test": "mocha --reporter mocha-junit-reporter --reoprter-optons mochaFile=/JUnit/reports.xml test.js"
+		},
+		"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shamangar-lab/jenkins1.git"
+		},
+		"auther": "your Name",
+		"license": "ISC",
+		"bugs": {
+		"url": "https://github.com/shamangar-lab/jenkins1/issues"
+		},
+		"homepage": "https://github.com/shamangar-lab/jenkins1#readme",
+		"dependencies":{
+		"mocha": "^4.0.1",
+		"mocha-junit-reporter": "^4.15.0",
+		"should": "^13.1.3",
+		"supertest": "^3.0.0"
+		}
+}
